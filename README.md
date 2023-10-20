@@ -11,4 +11,9 @@ ___
 
 Dans le terminal, installe l'outil **_mdadm_** avec **_apt install mdadm_**  
 
+![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/d1b61b24-e52d-4e35-8922-fd020b6736eb)
+
+
+
+
 
