@@ -1,1 +1,4 @@
-# Raid_sur_Linux
+# Gestion de RAID sur Linux
+
+___
+
