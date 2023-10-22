@@ -73,7 +73,7 @@ Pour que le RAID soit monté automatiquement à chaque démarrage, il faut ajout
 Qu'indique cette ligne :   
 
 **/dev/md0** : Le RAID  
-**/home/wilder/Data-RAID1** : Le point de montage de la partition RAID   
+**/home/beatrice/Data-RAID1** : Le point de montage de la partition RAID   
 **ext4 : Le FS choisi pour le RAID**   
 **nofail** : Avec cette option, il n'y aura pas de blocage au boot s'il y a un problème avec **md0**.    
 
@@ -98,3 +98,26 @@ ___
 ___
 
 ![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/9238c08e-70a5-4e32-aa80-94887966ba88)
+
+![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/a265f2e2-f660-4901-bae4-a171131cf1bc)
+
+___
+
+🔧 **Simulation d'une panne**  
+
+__
+
+![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/8f344d7a-df70-4f57-913d-298f4cc49c83)
+
+![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/d0e954f8-8768-4824-983c-70ac33823f90)
+
+
+Pour enlever un disque, tu peux aussi utiliser la commande sudo umount /dev/sdX directement dans la VM Ubuntu.   
+
+![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/bbc2dc77-e5f3-4b8a-beda-68aee6ed428b)
+
+![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/5664bc8a-efdc-40ed-8ca3-f1d94ddd245e)
+
+![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/4c1e4902-4b86-470e-9dcf-6ff50c15bf95)
+
+![image](https://github.com/techerbeatrice/Raid_sur_Linux/assets/138071140/3c1578ff-b291-4380-a609-0049778296ad)
